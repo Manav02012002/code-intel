@@ -1,6 +1,6 @@
 # 🧠 Code Intelligence
 
-A local-first code intelligence system that turns your codebase into a searchable, queryable knowledge base — accessible from your terminal or WhatsApp via [OpenClaw](https://github.com/nichochar/openclaw).
+A local-first code intelligence system that turns your codebase into a searchable, queryable knowledge base — accessible from your terminal or WhatsApp via [OpenClaw]([https://github.com/nichochar/openclaw](https://github.com/openclaw/openclaw?tab=MIT-1-ov-file)).
 
 Built with tree-sitter AST parsing, SQLite indexing, and natural language query support.
 
