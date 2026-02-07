@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "allowed_paths": [
+    "~/Dev"
+  ],
+  "blocked_patterns": [
+    "rm\\s+(-rf?|--recursive)\\s+[/~]",
+    "rm\\s+-rf?\\s+\\.",
+    ">\\s*/etc/",
+    "curl\\s+.*\\|\\s*(sh|bash|python)",
+    "wget\\s+.*\\|\\s*(sh|bash|python)",
+    "chmod\\s+777",
+    "sudo\\s+",
+    "mkfs\\.",
+    "dd\\s+if=",
+    ":()\\{.*\\}",
+    "eval\\s+",
+    "\\bexec\\s+",
+    "os\\.system\\s*\\(",
+    "subprocess\\.call.*shell\\s*=\\s*True",
+    "__import__\\s*\\(",
+    "shutil\\.rmtree\\s*\\(\\s*['\\\"/~]"
+  ],
+  "blocked_commands": [
+    "rm -rf /",
+    "rm -rf ~",
+    "rm -rf .",
+    "rm -rf ..",
+    "format",
+    "mkfs"
+  ],
+  "max_job_duration_seconds": 3600,
+  "max_concurrent_jobs": 5,
+  "log_all_commands": true
+}

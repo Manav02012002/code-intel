@@ -1,0 +1,7 @@
+scripts/db/
+jobs/
+safety.json
+__pycache__/
+*.pyc
+*.bak
+*.v1
